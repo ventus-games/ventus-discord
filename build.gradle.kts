@@ -4,7 +4,7 @@ plugins {
     id("org.springframework.boot") version "2.7.0"
 }
 
-group = "org.example"
+group = "io.github.ventusgames"
 version = "1.0-SNAPSHOT"
 
 repositories {
