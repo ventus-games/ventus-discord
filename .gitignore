@@ -1,6 +1,13 @@
 .gradle
 /build/
 
+# IntelliJ
+/.idea
+
+# Spring Boot configuration files
+*.yml
+!application-example.yml
+
 # Ignore Gradle GUI config
 gradle-app.setting
 

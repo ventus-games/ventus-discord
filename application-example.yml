@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    hikari:
+      pool-name:
+    url:
+    username:
+  jpa:
+    properties:
+      hibernate:
+        dialect:
+        show_sql:
+    hibernate:
+      ddl-auto:
+
+server:
+  port: 8000
+
+
+ventus:
+  token:
+  debugState:
+  guildId:
+  ownerId:
+  lavalink:
+    hostUrl:
+    password:
+  spotify:
+    id:
+    secret:
+  webhookUrl:
+  prefix:
