@@ -3,6 +3,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "7.1.0"
     id("org.springframework.boot") version "2.7.0"
 }
+apply(plugin = "io.spring.dependency-management")
 
 group = "io.github.ventusgames"
 version = "1.0-SNAPSHOT"
@@ -29,6 +30,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web:2.7.0")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.7.0")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor:2.7.0")
+}
+
+springBoot {
+    mainClass.set("io.github.ventusgames.ventus.central.Application")
 }
 
 tasks {
