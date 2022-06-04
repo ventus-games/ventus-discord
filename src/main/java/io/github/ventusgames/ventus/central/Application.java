@@ -12,9 +12,9 @@ import org.springframework.context.event.ContextClosedEvent;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan("org.example.ventus")
-@EntityScan("org.example.ventus.database.model")
-@EnableJpaRepositories("org.example.ventus.database.repository")
+@ComponentScan("io.github.ventusgames.ventus")
+@EntityScan("io.github.ventusgames.ventus.database.model")
+@EnableJpaRepositories("io.github.ventusgames.ventus.database.repository")
 public class Application {
 
     private static Application instance;
